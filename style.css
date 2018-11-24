@@ -1,0 +1,46 @@
+/* CSS files add styling rules to your content */
+
+body {
+  
+  
+
+    font-family: 'Rokkitt', serif;
+
+
+  margin: 2em;
+}
+
+span.navigationSpace {
+    padding-left: 450px;
+}
+
+h1 {
+  font-style: bold;
+  color: #000000;
+  font-size: 55px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a:hover {
+  background: #ff0000;
+}
+  
+#background-container {
+    width: 100%;
+
+    background-image: url("background-image.png");
+    background-position: calc(50% - 50px) 50%;
+    background-repeat: no-repeat;
+}
+
+
+#logo > img {
+  margin-left: -50px;
+}
